@@ -2,8 +2,8 @@
 
 // we want to call insertData before getData
 const data = [
-  { name: "a", proffession: "software engineer" },
-  { name: "b", proffession: "software engineer" },
+  { name: "a", profession: "software engineer" },
+  { name: "b", profession: "software engineer" },
 ];
 
 function getData() {
@@ -23,7 +23,7 @@ function insertData(newData) {
 }
 
 getData();
-insertData({ name: "c", proffession: "mechanical engineer" });
+insertData({ name: "c", profession: "mechanical engineer" });
 getData();
 
 // Method 1 :  Callback function
@@ -35,7 +35,7 @@ function insertData(newData, callback) {
   }, 2000);
 }
 
-insertData({ name: "c", proffession: "mechanical engineer" }, getData);
+insertData({ name: "c", profession: "mechanical engineer" }, getData);
 
 // Method 2: Using Promises
 
@@ -48,7 +48,7 @@ function insertData(newData) {
   });
 }
 
-insertData({ name: "c", proffession: "mechanical engineer" })
+insertData({ name: "c", profession: "mechanical engineer" })
   .then(getData)
   .catch((err) => console.log(err));
 
@@ -63,7 +63,7 @@ function insertData(newData) {
 }
 
 async function createData() {
-  await insertData({ name: "c", proffession: "mechanical engineer" });
+  await insertData({ name: "c", profession: "mechanical engineer" });
   getData();
 }
 createData();

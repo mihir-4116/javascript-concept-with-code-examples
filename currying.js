@@ -5,7 +5,7 @@ multiple smaller functions that can handle one responsibility.
 */
 
 function multiply(a) {
-  return function multiplayByA(b) {
+  return function multiplyByA(b) {
     return function multiplyByB(c) {
       return a * b * c;
     };

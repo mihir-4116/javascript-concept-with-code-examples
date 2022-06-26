@@ -10,7 +10,7 @@ Throttling or sometimes is also called throttle function is a practice used in w
 Throttling is used to call a function after every millisecond or a particular interval of time only the first click is executed immediately.
 */
 
-// debouncing : if time difference between two key stroke is greather then x ms.
+// debouncing : if time difference between two key stroke is greater then x ms.
 // Logic Function
 const getData = () => {
   console.log("fetching Data.....");
@@ -57,8 +57,8 @@ const batterExpensiveFunction = throttle(expensiveFunction, 300);
 window.addEventListener("resize", batterExpensiveFunction);
 
 /*
-onButtonClick : debuncing is batter
-track how many time user is changing window size : throtting is batter
+onButtonClick : debouncing is batter
+track how many time user is changing window size : throttling is batter
 shooting game :  throttling is batter
 input search : debouncing is batter
 --> both totally depends on usecases

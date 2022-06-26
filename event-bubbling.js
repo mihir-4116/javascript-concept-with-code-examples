@@ -1,7 +1,7 @@
 const div = document.querySelector("div");
 const button = document.querySelector("button");
 const a = document.querySelector("a");
-const ul = document.querySelector("#catagory");
+const ul = document.querySelector("#category");
 
 // child to parent (event-bubbling)
 /*

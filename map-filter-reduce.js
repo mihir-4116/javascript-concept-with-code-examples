@@ -33,7 +33,7 @@ const newCompaniesArray = companies.map((item) => {
 console.log(newCompaniesArray);
 
 // 5) sort
-// ASEC
+// ASC
 console.log(ages.sort((a, b) => a - b));
 // DESC
 console.log(ages.sort((a, b) => b - a));
