@@ -1,5 +1,5 @@
 /*
-A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context. 
+A falsy (sometimes written falsy) value is a value that is considered false when encountered in a Boolean context. 
 */
 
 // Examples

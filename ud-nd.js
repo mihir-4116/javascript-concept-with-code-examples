@@ -5,7 +5,7 @@ console.log(a);
 var a = "an example";
 console.log(a);
 
-// not-defined -> not allocated in mermory
+// not-defined -> not allocated in memory
 // console.log(b);
 
 /*

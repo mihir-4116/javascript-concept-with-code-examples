@@ -1,4 +1,4 @@
-// clousers
+// closures
 
 /* 
 A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). 
@@ -6,7 +6,7 @@ In other words, a closure gives you access to an outer function's scope from an 
 In JavaScript, closures are created every time a function is created, at function creation time.
 */
 
-// Why clousers
+// Why closures
 
 // 1) -> Memory efficient
 
@@ -33,11 +33,11 @@ const newEmoji = getEmoji(300);
 console.log(newEmoji);
 
 // 2) -> Encapsulation
-// radious is encapsulated inside area
-function createCircle(radious) {
+// radius is encapsulated inside area
+function createCircle(radius) {
   return {
     area: function () {
-      return Math.PI * radious * radious;
+      return Math.PI * radius * radius;
     },
   };
 }
